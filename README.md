@@ -1,66 +1,35 @@
-🔐 Authentication API
+# Full-Stack Next.js Project
 
-A complete RESTful Authentication API built with Node.js, Express, and MongoDB (Mongoose) for managing users.
-This backend is designed to connect easily with a Next.js frontend using fetch().
+A full-stack web application built with **Next.js 16**, **React 19**, **MongoDB**, and **Tailwind CSS**. Features JWT authentication, server-side rendering, and a modern responsive UI.
 
-🚀 Features
+## Tech Stack
 
-📝 User Registration
+- **Next.js 16** — React framework with SSR & API routes
+- **React 19** — UI library
+- **TypeScript** — type safety
+- **MongoDB + Mongoose** — database
+- **Tailwind CSS** — styling
+- **JWT (jose)** — authentication
+- **bcryptjs** — password hashing
 
-🔑 User Login
+## Features
 
-🎫 JWT Authentication
+- User authentication (register/login) with JWT
+- Protected routes and API endpoints
+- Server-side rendering
+- Responsive design with Tailwind CSS
+- MongoDB integration with Mongoose
 
-🔒 Secure Password Hashing (bcrypt)
+## How to Run
 
-🛡 Middleware for Auth Verification
+```bash
+cd my-app
+npm install
+npm run dev
+```
 
-🗄 MongoDB Database Using Mongoose
+Open **http://localhost:3000**
 
-🌐 CORS Enabled for Next.js Integration
+## Author
 
-❗ Error Handling Middleware
-
-📡 Fully Compatible with REST Clients (Postman, Thunder Client)
-
-🛠️ Tech Stack
-
-Node.js
-
-Express.js
-
-MongoDB + Mongoose
-
-JWT (jose or jsonwebtoken)
-
-bcryptjs — password hashing
-
-dotenv — environment variables
-
-cors — cross-origin support
-
-morgan — HTTP logging (optional)
-
-📁 Project Structure
-
-auth-backend/
-│── controllers/
-│── middleware/
-│── models/
-│── routes/
-│── server.js
-│── .env
-│── package.json
-│── README.md
-
-
-⚙️ Environment Variables
-
-Create a .env file at the project root:
-
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key_here
-CLIENT_URL=http://localhost:3000
-
-
+**Houssame El Bandoudi** — [GitHub](https://github.com/HOUSSAMEELBANDOUDI)
